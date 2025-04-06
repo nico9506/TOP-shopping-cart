@@ -1,0 +1,40 @@
+.navbar {
+  width: 100%;
+  height: 3rem;
+  padding: 0.3rem 1rem;
+  display: grid;
+  grid-template: 3rem / auto 1fr auto auto;
+  gap: 0.5rem;
+  justify-items: center;
+  align-items: center;
+  background-color: black;
+}
+
+.navbar > button {
+  width: 3rem;
+}
+
+.logoIcon {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7460%)
+    hue-rotate(350deg) brightness(97%) contrast(99%);
+  width: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .appName {
+    font-size: 1.2rem;
+  }
+
+  .navbar {
+    height: 2rem;
+    grid-template: 2rem / auto 1fr auto auto;
+  }
+
+  .navbar > button {
+    width: 2rem;
+  }
+
+  .logoIcon {
+    width: 2rem;
+  }
+}
