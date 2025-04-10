@@ -1,7 +1,4 @@
 .hero {
-  background-image: url("https://via.placeholder.com/1920x1080");
-  background-size: cover;
-  background-position: center;
   height: 60vh;
   display: flex;
   align-items: center;
