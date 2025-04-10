@@ -1,0 +1,23 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 4rem 5%;
+  background-color: darkkhaki;
+}
+
+.about-section {
+  padding: 4rem 5%;
+  text-align: center;
+}
+
+.about-section h2 {
+  margin-bottom: 1.5rem;
+  color: whitesmoke;
+}
+
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+  color: lightgray;
+}
