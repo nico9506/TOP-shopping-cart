@@ -1,15 +1,22 @@
+import { useNavigate } from "react-router-dom";
 import FeatureCard from "../components/FeatureCard";
 import HeroSection from "../components/HeroSection";
 import "../styles/Home.css";
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const goToShopPage = () => {
+    navigate("/shop");
+  };
+
   return (
     <>
       <HeroSection
         title="New Season Arrivals"
         description="Discover our curated collection of premium fashion"
         btnName="Explore Collection"
-        btnFunction={() => alert("Redirect to the shop")}
+        btnFunction={goToShopPage}
       ></HeroSection>
 
       <div className="features">
