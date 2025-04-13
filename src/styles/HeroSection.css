@@ -5,6 +5,7 @@
   justify-content: center;
   text-align: center;
   color: white;
+  margin: 0 auto;
 }
 
 .hero-content {
@@ -27,4 +28,10 @@
   font-size: 1.1rem;
   margin-top: 1.5rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .hero {
+    width: 95%;
+  }
 }
